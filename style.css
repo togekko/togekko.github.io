@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+@font-face{
+  font-family: 'MyFont';
+	src: url('font/LightNovelPop.otf');
+}
+
+@font-face{
+  font-family: 'Hiragino Maru Gothic ProN';
+  src: 'Hiragino Maru Gothic ProN';
+}
+body{
+  /* background: -moz-linear-gradient(top, rgba(255,240,221,.8),a rgba(255,255,255,.8), url('img/WoodBackGround.jpg'));
+  background: -webkit-linear-gradient(top, rgba(255,240,221,.8),a rgba(255,255,255,.8), url('img/WoodBackGround.jpg'));
+  background: linear-gradient(to bottom, rgba(255,240,221,.8),a rgba(255,255,255,.8), url('img/WoodBackGround.jpg')); */
+  background: -moz-linear-gradient(top, #FFF0DD, #FFFFFF);
+  background: -webkit-linear-gradient(top, #FFF0DD, #FFFFFF);
+  background: linear-gradient(to bottom, #FFF0DD, #FFFFFF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  font-family: MyFont;
+  /* font-family: 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN', 'ヒラギノ丸ゴ Pro W4',
+  'Hiragino Maru Gothic Pro', '游ゴシック', 'Yu Gothic', '游ゴシック体', YuGothic, 'ヒラギノ角ゴ ProN W3',
+  'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif; */
+  color: #605040;
+  text-shadow: 1px 2px 0px #a0a0a099;
+  font-size: 18px;
+
+}
+
+#header{
+  /* padding: 10px 0; */
+}
+
+#title{
+  padding: 20px 0;
+  /* height: 140px; */
+  width: auto;
+  font-size: 16px;
+}
+
+#main-menu{
+  justify-content: center;
+  height: 50px;
+  width: auto;
+  font-size: 16px;
+}
+
+.centerize{
+  margin: 0 auto;
+  display: flex;
+  width: 80vw;
+  text-align: center;
+  align-items: center;
+}
+
+.download{ 
+  font-size: 26px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.round{
+  margin: 10px auto;
+  max-width: 720px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.round-left {
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 800px;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px;
+  /* box-sizing: border-box; */
+}
+
+.round-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+}
+
+.round-left:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid;
+  z-index: 1;
+}
+
+.history{
+
+}
+
+.content-main {
+  margin: 70px 0;
+}
+
+.bar {
+  text-align: center;
+  border-bottom: 1px solid #605040;
+}
+
+.alert {
+  padding: 10px 0;
+  background-color: #CC2200;
+  color: #FFFFFF;
+}
+
+.alert-title {
+  padding: 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+.alert-content {
+  padding: 0;
+  text-align: center;
+}
+
+#logo {
+  height: 140px;
+  /* background-color: #00FFFF; */
+}
+
+#logo-foot {
+  height: 105px;
+  margin: 0 auto;
+}
+
+#content {
+  margin: 20px 0;
+  padding: 0 0;
+}
+
+.download-iOS {
+  margin-left: 20px;
+  height: 60px;
+  text-align: center;
+  flex-grow: 0;
+}
+
+.navigator-arc {
+  margin-right: 40px;
+  height: 60px;
+  /* margin: 0 auto; */
+  text-align: center;
+  flex-grow: 0;
+}
+
+.foot {
+  padding: 10px 60px;
+  background-color: #605040;
+  color: #FFFFFF;
+}
+
+.foot-title {
+  padding: 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+.foot-content {
+  padding: 0;
+  text-align: center;
+}
+
+.foot-copyright {
+  font-size: 12px;
+  text-align: center;
+  text-shadow: none;
+  color: #999999;
+  font-family: 'Hiragino Maru Gothic ProN';
+}
+
+.f-container{
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.f-item{
+  text-align: center;
+  flex-grow: 0;
+}
+
+.f-item2{
+  text-align: center;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.f-item-mainmenu{
+  margin-left: -1px;
+  height: 50px;
+  color: #605040;
+  width: 200px;
+  text-align: center;
+  border-left: 1px solid #605040;
+  border-right: 1px solid #605040;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-around;
+  transition: .4s;
+}
+
+.f-item-mainmenu:hover {
+  background: #605040;
+  color: white;
+}
+
+.staff{
+  margin: 20px 0;
+}
+
+.job{
+  margin-left: 120px;
+  width: calc(100% - 120px);
+  display: flex;
+  align-items: center;
+}
+.job-block{
+  background-color: #605040;
+  width: 20px;
+  height: 45px;
+}
+.job-text-out{
+  width: 600px;
+  padding: 0 20px 0 20px;
+  margin: 0;
+  height: 45px;
+  background: linear-gradient(3deg, #99cc55, rgba(153, 204, 65, 0));
+  display: flex;
+  align-items: center;
+}
+
+.job-text{
+  font-size: 30px;
+}
+
+.staff-name{
+  margin-left: 180px;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+.ppcontent{
+  margin-left: 180px;
+}

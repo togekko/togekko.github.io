@@ -1,1 +1,74 @@
-Hello world
+<!DOCTYPE html>
+<!-- comment -->
+<!--
+comment
+-->
+<html>
+  <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+    <meta charset="utf-8">
+    <title>ウェルステップ - 健康育成ゲームアプリ</title>
+    <!-- <link rel="shortcut icon" href="icon.ico"> -->
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+    </div>
+    <div class="alert">
+      <div class="alert-title"><p>※アプリが正常に起動できない場合</p></div>
+      <div class="alert-content"><p>端末から歩数を取得するために必要な許可が正しく行われていない可能性が高いです。</p>
+        <p>本体の[設定]ー[プライバシー]ー[ウェルステップ]から[歩数]をONにして歩数取得を許可してください。</p>
+      </div>
+    </div>
+    <div id="content">
+      <div class="centerize">
+        <div class="f-item"><img src="img/DLFAS.png" alt="illust" class="navigator-arc"></div>
+        <div class="round-left">
+          <div class="download">
+            <div class="f-item">右のバッジからアプリをダウンロード！</div>
+            <div class="f-item"><img src="img/DLFAS.png" alt="download-iOS" class="download-iOS"></div>
+          </div>
+        </div>
+      </div>
+      <div class="content-main">
+        <div><!--history-->
+          <div class="staff">
+            <div class="job">
+              <div class="job-block">
+              </div>
+              <div class="job-text-out">
+                <div class="job-text">最新情報</div>
+              </div>
+            </div>
+          </div>
+          <div class="ppcontent">
+            <p>2020/06/xx アプリをApp Storeにてリリースしました！</p>
+            <p>2020/05/xx アプリ公式サイトを公開しました！</p>
+          </div>
+        </div>
+        <div><!--version-->
+          <div class="staff">
+            <div class="job">
+              <div class="job-block">
+              </div>
+              <div class="job-text-out">
+                <div class="job-text">バージョン情報</div>
+              </div>
+            </div>
+          </div>
+          <div class="ppcontent">
+            <p>ver 1.0 - アプリを公開しました！</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
