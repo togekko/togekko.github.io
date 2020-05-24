@@ -9,6 +9,7 @@
   font-family: 'Hiragino Maru Gothic ProN';
   src: 'Hiragino Maru Gothic ProN';
 }
+
 body{
   /* background: -moz-linear-gradient(top, rgba(255,240,221,.8),a rgba(255,255,255,.8), url('img/WoodBackGround.jpg'));
   background: -webkit-linear-gradient(top, rgba(255,240,221,.8),a rgba(255,255,255,.8), url('img/WoodBackGround.jpg'));
@@ -27,7 +28,17 @@ body{
   color: #605040;
   text-shadow: 1px 2px 0px #a0a0a099;
   font-size: 18px;
+                                      /* ドット（水玉）模様のCSS */
+  /* background-color   : rgba(255, 255, 255, 0.10); */
+  /* background-image   : radial-gradient(rgba(216, 179, 149, 0.53) 21%, transparent 80%),
+                       radial-gradient(rgba(216, 179, 149, 0.53) 21%, transparent 80%);
+  background-position: 0 0, 21px 21px;
+  background-size    : 42px 42px; */
 
+}
+
+#secret-link{
+  display: none;
 }
 
 #header{
@@ -46,6 +57,25 @@ body{
   height: 50px;
   width: auto;
   font-size: 16px;
+}
+
+.factor{
+  display: flex;
+  text-align: center;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.left{
+  width: 45vw;
+  margin-right: 0;
+  text-align: right;
+}
+
+.right{
+  width: 45vw;
+  margin-left: 0;
+  text-align: left;
 }
 
 .centerize{
@@ -242,6 +272,17 @@ body{
   display: flex;
   align-items: center;
 }
+
+.new-job{
+  font-size: 20px;
+  color: #a09080;
+}
+
+.mini-bar{
+  text-align: center;
+  border-bottom: 1px solid #a09080;
+}
+
 .job-block{
   background-color: #605040;
   width: 20px;
@@ -267,6 +308,23 @@ body{
   font-size: 24px;
 }
 
+.new-staff-name{
+  margin-left: 180px;
+  width: 540px;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
 .ppcontent{
   margin-left: 180px;
+}
+
+.ppcontent-aida{
+  margin-left: 180px;
+  line-height: 0.5em;
+}
+
+.ppcontent-2{
+  margin-top: 20px;
+  margin-left: 200px;
 }
