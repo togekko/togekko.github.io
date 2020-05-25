@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} ^.*/index.html
+
+RewriteRule ^(.*)index.html$ http://well-step.net/$1 [R=301,L]
