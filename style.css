@@ -81,7 +81,7 @@ body{
 .centerize{
   margin: 0 auto;
   display: flex;
-  width: 80vw;
+  max-width: 1000px;
   text-align: center;
   align-items: center;
 }
