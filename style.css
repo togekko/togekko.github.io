@@ -200,6 +200,10 @@ body{
   flex-grow: 0;
 }
 
+.d{
+  font-size: 18px;
+}
+
 .foot {
   padding: 10px 60px;
   background-color: #605040;
