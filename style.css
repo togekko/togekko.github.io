@@ -291,6 +291,7 @@ body{
 }
 .job-text-out{
   width: 45%;
+  min-width: 600px;
   padding: 0 20px 0 20px;
   margin: 0;
   height: 45px;
