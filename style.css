@@ -81,9 +81,10 @@ body{
 .centerize{
   margin: 0 auto;
   display: flex;
-  max-width: 1000px;
+  width: 1200px;
   text-align: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .download{ 
@@ -96,7 +97,7 @@ body{
 }
 
 .round{
-  margin: 10px auto;
+  margin: 10px 0;
   max-width: 720px;
   border: solid;
   border-radius: 10px;
@@ -108,7 +109,7 @@ body{
   border-radius: 20px;
   position: relative;
   display: inline-block;
-  margin: 10px auto;
+  margin: 10px 0;
   padding: 10px;
   width: 800px;
   font-size: 16px;
