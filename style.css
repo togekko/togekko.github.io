@@ -320,15 +320,17 @@ body{
 
 .ppcontent{
   margin-left: 15%;
+  max-width: 70%;
 }
 
 .ppcontent-aida{
   margin-left: 15%;
   line-height: 0.5em;
+  max-width: 70%;
 }
 
 .ppcontent-2{
   margin-top: 20px;
   margin-left: 17%;
-  width: 40%;
+  max-width: 68%;
 }
