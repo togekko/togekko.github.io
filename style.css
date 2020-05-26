@@ -324,13 +324,14 @@ body{
 
 .ppcontent{
   margin-left: 15%;
+  line-height: 1.5em;
   max-width: 70%;
   font-size: 18px;
 }
 
 .ppcontent-aida{
   margin-left: 15%;
-  line-height: 0.5em;
+  line-height: 1.5em;
   max-width: 70%;
   font-size: 18px;
 }
