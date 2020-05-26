@@ -73,7 +73,7 @@ body{
 }
 
 .right{
-  width: 45vw;
+  width: 45%;
   margin-left: 0;
   text-align: left;
 }
@@ -81,7 +81,7 @@ body{
 .centerize{
   margin: 0 auto;
   display: flex;
-  width: 1200px;
+  width: 90%;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
@@ -98,7 +98,7 @@ body{
 
 .round{
   margin: 10px 0;
-  max-width: 720px;
+  max-width: 60%;
   border: solid;
   border-radius: 10px;
   background-color: #FFFFFF;
@@ -111,7 +111,7 @@ body{
   display: inline-block;
   margin: 10px 0;
   padding: 10px;
-  width: 800px;
+  width: 66%;
   font-size: 16px;
   background: #FFF;
   border: solid 3px;
@@ -193,8 +193,8 @@ body{
 }
 
 .navigator-arc {
-  margin-right: 40px;
-  height: 60px;
+  margin-right: 20px;
+  height: 120px;
   /* margin: 0 auto; */
   text-align: center;
   flex-grow: 0;
@@ -247,7 +247,7 @@ body{
   margin-left: -1px;
   height: 50px;
   color: #605040;
-  width: 200px;
+  width: 15%;
   text-align: center;
   border-left: 1px solid #605040;
   border-right: 1px solid #605040;
@@ -268,8 +268,8 @@ body{
 }
 
 .job{
-  margin-left: 120px;
-  width: calc(100% - 120px);
+  margin-left: 10%;
+  width: 90%;
   display: flex;
   align-items: center;
 }
@@ -290,7 +290,7 @@ body{
   height: 45px;
 }
 .job-text-out{
-  width: 600px;
+  width: 45%;
   padding: 0 20px 0 20px;
   margin: 0;
   height: 45px;
@@ -304,28 +304,28 @@ body{
 }
 
 .staff-name{
-  margin-left: 180px;
+  margin-left: 15%;
   padding: 10px 0;
   font-size: 24px;
 }
 
 .new-staff-name{
-  margin-left: 180px;
-  width: 540px;
+  margin-left: 15%;
+  width: 40%;
   padding: 10px 0;
   font-size: 24px;
 }
 
 .ppcontent{
-  margin-left: 180px;
+  margin-left: 15%;
 }
 
 .ppcontent-aida{
-  margin-left: 180px;
+  margin-left: 15%;
   line-height: 0.5em;
 }
 
 .ppcontent-2{
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 17%;
 }
