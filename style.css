@@ -148,6 +148,11 @@ body{
   margin: 70px 0;
 }
 
+.content-main-sentence {
+  margin: 70px 0 70px 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .bar {
   text-align: center;
   border-bottom: 1px solid #605040;
